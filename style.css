@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#menu_superior{
+    background-image: url(imagens/fundo-superior.svg);
+    color: #FFFFFF;
+}
+
+#titulo_menu_superior{
+    margin-left: 62px;
+    padding-top: 206px;
+    font-weight: 600;
+    line-height: 72px;
+    font-size: 60px;
+}
+
+#paragrafo_menu_superior{
+    margin-left: 62px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 149px;
+}
+
+#menu-informativo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #F9F9F9;
+}
+
+#construidos{
+    margin-left: 171px;
+}
+
+.informativo{
+    padding-top: 96px;
+    padding-bottom: 66px;
+}
+
+#titulo-descricao{
+    margin-left: 77px;
+    margin-top: 304px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 20px;
+}
+
+#paragrafo-descricao{
+    margin-left: 77px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+#menu-descricao{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#imagem-descricao{
+    margin-top: 82px;
+    margin-left: 64px;
+    padding-bottom: 92px;
+    border-radius: 30px;
+}
+
+#formulario{
+    text-align: center;
+    background-color: #303030;
+}
+
+#titulo-formulario{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    padding-top: 87px;
+}
+
+input{
+    background-color: #FFFFFF;    
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 48px;
+    padding-left: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+input::placeholder{
+color: #0000004D;
+}
+
+button{
+    margin-top: 88px;
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #C07212;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 87px;
+}
+
+
+button:hover{
+    background-color: #c3802f;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #FFFFFF;
+    transition-duration: 0.5s;
+}
